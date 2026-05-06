@@ -1,0 +1,89 @@
+-- -------------------------------------------------------
+-- DATABASE: pendaftaran_santri
+-- -------------------------------------------------------
+
+CREATE DATABASE IF NOT EXISTS pendaftaran_santri;
+USE pendaftaran_santri;
+
+-- -------------------------------------------------------
+-- TABLE: calon_santri
+-- -------------------------------------------------------
+
+CREATE TABLE calon_santri (
+    id_santri INT AUTO_INCREMENT PRIMARY KEY,
+    nama_lengkap VARCHAR(150) NOT NULL,
+    nama_panggilan VARCHAR(100),
+    jenis_kelamin ENUM('Laki-laki', 'Perempuan'),
+    jenjang_pendidikan VARCHAR(100),
+    alamat TEXT,
+    tempat_lahir VARCHAR(100),
+    tanggal_lahir DATE,
+    jalur_pendaftaran VARCHAR(100),
+    status_tempat_tinggal VARCHAR(100),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- -------------------------------------------------------
+-- TABLE: pendidikan_santri
+-- -------------------------------------------------------
+
+CREATE TABLE pendidikan_santri (
+    id_pendidikan INT AUTO_INCREMENT PRIMARY KEY,
+    id_santri INT NOT NULL,
+    nisn VARCHAR(30),
+    nama_sekolah_asal VARCHAR(150),
+    alamat_sekolah_asal TEXT,
+
+    FOREIGN KEY (id_santri) REFERENCES calon_santri(id_santri)
+        ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- -------------------------------------------------------
+-- TABLE: data_ayah
+-- -------------------------------------------------------
+
+CREATE TABLE data_ayah (
+    id_ayah INT AUTO_INCREMENT PRIMARY KEY,
+    id_santri INT NOT NULL,
+    nama_lengkap VARCHAR(150),
+    no_hp VARCHAR(20),
+    suku VARCHAR(100),
+    tempat_lahir VARCHAR(100),
+    tanggal_lahir DATE,
+    status VARCHAR(50),
+    alamat TEXT,
+    pendidikan_terakhir VARCHAR(100),
+    keterangan VARCHAR(100),
+    pekerjaan VARCHAR(150),
+    penghasilan VARCHAR(100),
+
+    FOREIGN KEY (id_santri) REFERENCES calon_santri(id_santri)
+        ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- -------------------------------------------------------
+-- TABLE: data_ibu
+-- -------------------------------------------------------
+
+CREATE TABLE data_ibu (
+    id_ibu INT AUTO_INCREMENT PRIMARY KEY,
+    id_santri INT NOT NULL,
+    nama_lengkap VARCHAR(150),
+    no_hp VARCHAR(20),
+    suku VARCHAR(100),
+    tempat_lahir VARCHAR(100),
+    tanggal_lahir DATE,
+    status VARCHAR(50),
+    alamat TEXT,
+    pendidikan_terakhir VARCHAR(100),
+    keterangan VARCHAR(100),
+    pekerjaan VARCHAR(150),
+    penghasilan VARCHAR(100),
+
+    FOREIGN KEY (id_santri) REFERENCES calon_santri(id_santri)
+        ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- -------------------------------------------------------
+-- END OF STRUCTURE
+-- -------------------------------------------------------

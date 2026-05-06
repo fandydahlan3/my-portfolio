@@ -1,0 +1,5 @@
+SetEnv HTTPS On
+# -- KODE REDIRECT HTTPS ANDA DI BAWAH INI --
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
