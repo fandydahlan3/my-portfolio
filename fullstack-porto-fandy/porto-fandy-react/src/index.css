@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --color-hijau-fandy: #1B4332;
+  --color-kuning-fandy: #FFC300;
+}
