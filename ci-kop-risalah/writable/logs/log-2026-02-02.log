@@ -1,0 +1,1871 @@
+CRITICAL - 2026-02-02 05:55:48 --> Error: Class "BaseController" not found
+[Method: GET, Route: iuran]
+in APPPATH\Controllers\iuran.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Controllers\\Iuran.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Iuran')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Iuran')
+ 5 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Iuran', true)
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 05:56:06 --> Error: Class "BaseController" not found
+[Method: GET, Route: iuran]
+in APPPATH\Controllers\iuran.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Controllers\\Iuran.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Iuran')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Iuran')
+ 5 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Iuran', true)
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 05:56:10 --> Error: Class "BaseController" not found
+[Method: GET, Route: iuran]
+in APPPATH\Controllers\iuran.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Controllers\\Iuran.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Iuran')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Iuran')
+ 5 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Iuran', true)
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 05:57:55 --> Error: Class "BaseController" not found
+[Method: GET, Route: iuran]
+in APPPATH\Controllers\iuran.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Controllers\\Iuran.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Iuran')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Iuran')
+ 5 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Iuran', true)
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 05:58:54 --> Error: Class "BaseController" not found
+[Method: GET, Route: iuran]
+in APPPATH\Controllers\iuran.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Controllers\\Iuran.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Iuran')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Iuran')
+ 5 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Iuran', true)
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 05:59:58 --> Error: Class "App\Models\MIuran" not found
+[Method: GET, Route: iuran]
+in APPPATH\Controllers\iuran.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Iuran->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:01:25 --> Error: Class "App\Models\M_Iuran" not found
+[Method: GET, Route: iuran]
+in APPPATH\Controllers\iuran.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Iuran->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 06:04:31 --> mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\iuran.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Iuran->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-02-02 06:04:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+[Method: GET, Route: iuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\iuran.php(20): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:04:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\iuran.php(20): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:04:31 --> [Caused by] mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\iuran.php(20): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 06:09:39 --> mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`....', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`....')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`....')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`....', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Iuran->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-02-02 06:09:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+[Method: GET, Route: iuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:09:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:09:39 --> [Caused by] mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 06:09:44 --> mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`....', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`....')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`....')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`....', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Iuran->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-02-02 06:09:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+[Method: GET, Route: iuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:09:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:09:44 --> [Caused by] mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 06:10:21 --> mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`....', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`....')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`....')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`....', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Iuran->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-02-02 06:10:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+[Method: GET, Route: iuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:10:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:10:21 --> [Caused by] mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 06:11:06 --> mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`....', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`....')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`....')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`....', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Iuran->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-02-02 06:11:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+[Method: GET, Route: iuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:11:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:11:06 --> [Caused by] mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 06:12:31 --> mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`....', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`....')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`....')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`....', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Iuran->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-02-02 06:12:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+[Method: GET, Route: iuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:12:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:12:31 --> [Caused by] mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 06:12:39 --> mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`....', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`....')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`....')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`....', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Iuran->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-02-02 06:12:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+[Method: GET, Route: iuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:12:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:12:39 --> [Caused by] mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 06:13:38 --> mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`....', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`....')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`....')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`....', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Iuran->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-02-02 06:13:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+[Method: GET, Route: iuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:13:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:13:38 --> [Caused by] mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 06:13:39 --> mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`....', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`....')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`....')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`....', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Iuran->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-02-02 06:13:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+[Method: GET, Route: iuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:13:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:13:39 --> [Caused by] mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 06:13:40 --> mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`....', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`....')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`....')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`....', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Iuran->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-02-02 06:13:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+[Method: GET, Route: iuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:13:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:13:40 --> [Caused by] mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 06:13:40 --> mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`....', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`....')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`....')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`....', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Iuran->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-02-02 06:13:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+[Method: GET, Route: iuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:13:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:13:40 --> [Caused by] mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:16:29 --> ParseError: syntax error, unexpected identifier "m_iuran"
+[Method: GET, Route: iuran]
+in APPPATH\Models\m_iuran.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Models\\m_iuran.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\m_iuran')
+ 3 APPPATH\Controllers\iuran.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\m_iuran')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Iuran->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 06:17:20 --> mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`....', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`....')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`....')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`....', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Iuran->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-02-02 06:17:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+[Method: GET, Route: iuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:17:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:17:20 --> [Caused by] mysqli_sql_exception: Table 'koperasi.iuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iuran`.`id_iuran`, `iuran`.`nomor_anggota`, `anggota`.`nama_anggota`, `iuran`.`iuran_pokok`, `iuran`.`iuran_wajib`, `iuran`.`iuran_sukarela`, `iuran`.`tanggal_iuran`
+FROM `iuran`
+JOIN `anggota` ON `anggota`.`nomor_anggota` = `iuran`.`nomor_anggota`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\iuran.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:26:35 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: iuran]
+in SYSTEMPATH\BaseModel.php on line 824.
+ 1 SYSTEMPATH\BaseModel.php(824): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\iuran.php(36): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->store()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:28:35 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: iuran]
+in SYSTEMPATH\BaseModel.php on line 824.
+ 1 SYSTEMPATH\BaseModel.php(824): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\iuran.php(36): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->store()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:29:33 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: iuran]
+in SYSTEMPATH\BaseModel.php on line 824.
+ 1 SYSTEMPATH\BaseModel.php(824): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\iuran.php(36): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->store()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:32:09 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: iuran]
+in SYSTEMPATH\BaseModel.php on line 824.
+ 1 SYSTEMPATH\BaseModel.php(824): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\iuran.php(36): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->store()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 06:34:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`koperasi`.`data_iuran`, CONSTRAINT `data_iuran_ibfk_1` FOREIGN KEY (`nomor_anggota`) REFERENCES `anggota` (`nomor_anggota`)) in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\iuran.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Iuran->store()
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+#10 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2026-02-02 06:34:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`koperasi`.`data_iuran`, CONSTRAINT `data_iuran_ibfk_1` FOREIGN KEY (`nomor_anggota`) REFERENCES `anggota` (`nomor_anggota`))
+[Method: POST, Route: iuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (:nomor_anggota:, :iuran_pokok:, :iuran_wajib:, :iuran_sukarela:, :tanggal_iuran:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\iuran.php(44): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:34:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`koperasi`.`data_iuran`, CONSTRAINT `data_iuran_ibfk_1` FOREIGN KEY (`nomor_anggota`) REFERENCES `anggota` (`nomor_anggota`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (\'fandy bonaro\', \'50000\', \'50000\', \'50000\', \'2026-02-02\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (\'fandy bonaro\', \'50000\', \'50000\', \'50000\', \'2026-02-02\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (:nomor_anggota:, :iuran_pokok:, :iuran_wajib:, :iuran_sukarela:, :tanggal_iuran:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\iuran.php(44): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->store()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:34:50 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`koperasi`.`data_iuran`, CONSTRAINT `data_iuran_ibfk_1` FOREIGN KEY (`nomor_anggota`) REFERENCES `anggota` (`nomor_anggota`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (\'fandy bonaro\', \'50000\', \'50000\', \'50000\', \'2026-02-02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (\'fandy bonaro\', \'50000\', \'50000\', \'50000\', \'2026-02-02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (\'fandy bonaro\', \'50000\', \'50000\', \'50000\', \'2026-02-02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (:nomor_anggota:, :iuran_pokok:, :iuran_wajib:, :iuran_sukarela:, :tanggal_iuran:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\iuran.php(44): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 06:36:08 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`koperasi`.`data_iuran`, CONSTRAINT `data_iuran_ibfk_1` FOREIGN KEY (`nomor_anggota`) REFERENCES `anggota` (`nomor_anggota`)) in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\iuran.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Iuran->store()
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+#10 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2026-02-02 06:36:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`koperasi`.`data_iuran`, CONSTRAINT `data_iuran_ibfk_1` FOREIGN KEY (`nomor_anggota`) REFERENCES `anggota` (`nomor_anggota`))
+[Method: POST, Route: iuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (:nomor_anggota:, :iuran_pokok:, :iuran_wajib:, :iuran_sukarela:, :tanggal_iuran:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\iuran.php(44): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:36:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`koperasi`.`data_iuran`, CONSTRAINT `data_iuran_ibfk_1` FOREIGN KEY (`nomor_anggota`) REFERENCES `anggota` (`nomor_anggota`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (\'fandy bonaro\', \'50000\', \'50000\', \'50000\', \'2026-02-02\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (\'fandy bonaro\', \'50000\', \'50000\', \'50000\', \'2026-02-02\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (:nomor_anggota:, :iuran_pokok:, :iuran_wajib:, :iuran_sukarela:, :tanggal_iuran:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\iuran.php(44): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->store()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:36:08 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`koperasi`.`data_iuran`, CONSTRAINT `data_iuran_ibfk_1` FOREIGN KEY (`nomor_anggota`) REFERENCES `anggota` (`nomor_anggota`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (\'fandy bonaro\', \'50000\', \'50000\', \'50000\', \'2026-02-02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (\'fandy bonaro\', \'50000\', \'50000\', \'50000\', \'2026-02-02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (\'fandy bonaro\', \'50000\', \'50000\', \'50000\', \'2026-02-02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_iuran` (`nomor_anggota`, `iuran_pokok`, `iuran_wajib`, `iuran_sukarela`, `tanggal_iuran`) VALUES (:nomor_anggota:, :iuran_pokok:, :iuran_wajib:, :iuran_sukarela:, :tanggal_iuran:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\iuran.php(44): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:36:10 --> ErrorException: Undefined variable $anggota
+[Method: GET, Route: iuran]
+in APPPATH\Views\pages\modal-input-iuran.php on line 22.
+ 1 APPPATH\Views\pages\modal-input-iuran.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $anggota', 'C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\pages\\modal-input-iuran.php', 22)
+ 2 APPPATH\Views\data-iuran.php(165): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\pages\\modal-input-iuran.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\data-iuran.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('data-iuran', [], true)
+ 6 APPPATH\Controllers\iuran.php(31): view('data-iuran', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:36:15 --> ErrorException: Undefined variable $anggota
+[Method: GET, Route: iuran]
+in APPPATH\Views\pages\modal-input-iuran.php on line 22.
+ 1 APPPATH\Views\pages\modal-input-iuran.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $anggota', 'C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\pages\\modal-input-iuran.php', 22)
+ 2 APPPATH\Views\data-iuran.php(165): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\pages\\modal-input-iuran.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\data-iuran.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('data-iuran', [], true)
+ 6 APPPATH\Controllers\iuran.php(31): view('data-iuran', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:40:49 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: iuran]
+in APPPATH\Models\m_iuran.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Models\\m_iuran.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\m_iuran')
+ 3 APPPATH\Controllers\iuran.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\m_iuran')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Iuran->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:42:49 --> ParseError: Unclosed '{' on line 49
+[Method: GET, Route: iuran]
+in APPPATH\Controllers\iuran.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Controllers\\Iuran.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Iuran')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Iuran')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Iuran', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:45:08 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: iuran]
+in APPPATH\Controllers\iuran.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Controllers\\Iuran.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Iuran')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Iuran')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Iuran', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:53:27 --> ErrorException: Undefined variable $anggota
+[Method: GET, Route: iuran]
+in APPPATH\Views\pages\modal-input-iuran.php on line 22.
+ 1 APPPATH\Views\pages\modal-input-iuran.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $anggota', 'C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\pages\\modal-input-iuran.php', 22)
+ 2 APPPATH\Views\data-iuran.php(166): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\pages\\modal-input-iuran.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\data-iuran.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('data-iuran', [], true)
+ 6 APPPATH\Controllers\iuran.php(32): view('data-iuran', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 06:59:39 --> ErrorException: Undefined variable $anggota
+[Method: GET, Route: iuran]
+in APPPATH\Views\pages\modal-input-iuran.php on line 30.
+ 1 APPPATH\Views\pages\modal-input-iuran.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $anggota', 'C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\pages\\modal-input-iuran.php', 30)
+ 2 APPPATH\Views\data-iuran.php(166): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\pages\\modal-input-iuran.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\data-iuran.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('data-iuran', [], true)
+ 6 APPPATH\Controllers\iuran.php(32): view('data-iuran', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Iuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 07:32:19 --> mysqli_sql_exception: Table 'koperasi.angsuran' doesn't exist in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\d_angsuran.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\d_angsuran->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\d_angsuran))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-02-02 07:32:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.angsuran' doesn't exist
+[Method: GET, Route: d_angsuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `angsuran`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\d_angsuran.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\d_angsuran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\d_angsuran))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 07:32:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.angsuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `angsuran`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `angsuran`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `angsuran`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\d_angsuran.php(18): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\d_angsuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\d_angsuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 07:32:19 --> [Caused by] mysqli_sql_exception: Table 'koperasi.angsuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `angsuran`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `angsuran`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `angsuran`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `angsuran`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\d_angsuran.php(18): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\d_angsuran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\d_angsuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 07:34:51 --> mysqli_sql_exception: Table 'koperasi.angsuran' doesn't exist in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\d_angsuran.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\D_angsuran->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\D_angsuran))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-02-02 07:34:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.angsuran' doesn't exist
+[Method: GET, Route: d_angsuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `angsuran`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\d_angsuran.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\D_angsuran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\D_angsuran))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 07:34:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'koperasi.angsuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `angsuran`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `angsuran`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `angsuran`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\d_angsuran.php(18): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\D_angsuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\D_angsuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 07:34:51 --> [Caused by] mysqli_sql_exception: Table 'koperasi.angsuran' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `angsuran`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `angsuran`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `angsuran`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `angsuran`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\d_angsuran.php(18): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\D_angsuran->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\D_angsuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 07:44:26 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`koperasi`.`data_angsuran`, CONSTRAINT `data_angsuran_ibfk_1` FOREIGN KEY (`nomor_anggota`) REFERENCES `anggota` (`nomor_anggota`)) in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\d_angsuran.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\d_angsuran->store()
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\d_angsuran))
+#10 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2026-02-02 07:44:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`koperasi`.`data_angsuran`, CONSTRAINT `data_angsuran_ibfk_1` FOREIGN KEY (`nomor_anggota`) REFERENCES `anggota` (`nomor_anggota`))
+[Method: POST, Route: d_angsuran/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_angsuran` (`nomor_anggota`, `nominal_angsuran`, `tanggal_angsuran`) VALUES (:nomor_anggota:, :nominal_angsuran:, :tanggal_angsuran:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\d_angsuran.php(25): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\d_angsuran->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\d_angsuran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 07:44:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`koperasi`.`data_angsuran`, CONSTRAINT `data_angsuran_ibfk_1` FOREIGN KEY (`nomor_anggota`) REFERENCES `anggota` (`nomor_anggota`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `data_angsuran` (`nomor_anggota`, `nominal_angsuran`, `tanggal_angsuran`) VALUES (\'fandy bonaro\', \'20.000\', \'2026-02-02\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `data_angsuran` (`nomor_anggota`, `nominal_angsuran`, `tanggal_angsuran`) VALUES (\'fandy bonaro\', \'20.000\', \'2026-02-02\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_angsuran` (`nomor_anggota`, `nominal_angsuran`, `tanggal_angsuran`) VALUES (:nomor_anggota:, :nominal_angsuran:, :tanggal_angsuran:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\d_angsuran.php(25): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\d_angsuran->store()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\d_angsuran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 07:44:26 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`koperasi`.`data_angsuran`, CONSTRAINT `data_angsuran_ibfk_1` FOREIGN KEY (`nomor_anggota`) REFERENCES `anggota` (`nomor_anggota`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `data_angsuran` (`nomor_anggota`, `nominal_angsuran`, `tanggal_angsuran`) VALUES (\'fandy bonaro\', \'20.000\', \'2026-02-02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `data_angsuran` (`nomor_anggota`, `nominal_angsuran`, `tanggal_angsuran`) VALUES (\'fandy bonaro\', \'20.000\', \'2026-02-02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `data_angsuran` (`nomor_anggota`, `nominal_angsuran`, `tanggal_angsuran`) VALUES (\'fandy bonaro\', \'20.000\', \'2026-02-02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_angsuran` (`nomor_anggota`, `nominal_angsuran`, `tanggal_angsuran`) VALUES (:nomor_anggota:, :nominal_angsuran:, :tanggal_angsuran:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\d_angsuran.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\d_angsuran->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\d_angsuran))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 07:47:02 --> ErrorException: Undefined variable $anggota
+[Method: GET, Route: d_angsuran]
+in APPPATH\Views\pages\modal-input-angsuran.php on line 27.
+ 1 APPPATH\Views\pages\modal-input-angsuran.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $anggota', 'C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\pages\\modal-input-angsuran.php', 27)
+ 2 APPPATH\Views\data-angsuran.php(154): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\pages\\modal-input-angsuran.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\data-angsuran.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('data-angsuran', [], true)
+ 6 APPPATH\Controllers\d_angsuran.php(19): view('data-angsuran', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\d_angsuran->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\d_angsuran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 07:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-02 07:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-02 07:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-02 07:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-02 07:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-02 07:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-02 07:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-02 08:01:33 --> ErrorException: Undefined variable $no
+[Method: GET, Route: d_angsuran]
+in APPPATH\Views\data-angsuran.php on line 130.
+ 1 APPPATH\Views\data-angsuran.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\data-angsuran.php', 130)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\data-angsuran.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('data-angsuran', [], true)
+ 5 APPPATH\Controllers\d_angsuran.php(21): view('data-angsuran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\d_angsuran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\d_angsuran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 08:58:26 --> Error: Class "App\Models\m_d_angsuran" not found
+[Method: GET, Route: d_angsuran]
+in APPPATH\Controllers\d_angsuran.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\d_angsuran->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 09:04:31 --> Error: Class "App\Models\m_pembayaran" not found
+[Method: GET, Route: d_angsuran]
+in APPPATH\Controllers\d_angsuran.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\d_angsuran->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 09:09:51 --> Error: Class "App\Models\m_pembayaran" not found
+[Method: GET, Route: d_angsuran]
+in APPPATH\Controllers\d_angsuran.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\d_angsuran->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-02 09:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-02 09:27:17 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH\Router\RouteCollection.php on line 1026.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH\Config\Routes.php(30): CodeIgniter\Router\RouteCollection->match([...], 'd_angsuran/bayar/(:num)', 'd_angsuran::bayar/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-02 09:27:17 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Router\RouteCollection.php on line 1026.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH\Config\Routes.php(30): CodeIgniter\Router\RouteCollection->match([...], 'd_angsuran/bayar/(:num)', 'd_angsuran::bayar/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-02 09:27:22 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH\Router\RouteCollection.php on line 1026.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH\Config\Routes.php(30): CodeIgniter\Router\RouteCollection->match([...], 'd_angsuran/bayar/(:num)', 'd_angsuran::bayar/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-02 09:27:22 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Router\RouteCollection.php on line 1026.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH\Config\Routes.php(30): CodeIgniter\Router\RouteCollection->match([...], 'd_angsuran/bayar/(:num)', 'd_angsuran::bayar/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 09:52:40 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'koperasi', 3306, '', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\anggota.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Anggota->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\anggota.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Anggota->index()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-02-02 09:52:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: anggota]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `anggota`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\anggota.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anggota->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 09:52:42 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'koperasi', 3306, '', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\anggota.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Anggota->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\anggota.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Anggota->index()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-02-02 09:52:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: anggota]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `anggota`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\anggota.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anggota->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 09:52:55 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'koperasi', 3306, '', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\d_angsuran.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\d_angsuran->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\d_angsuran))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\d_angsuran.php(23): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\d_angsuran->index()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\d_angsuran))
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-02-02 09:52:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: d_angsuran]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_angsuran`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\d_angsuran.php(23): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\d_angsuran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\d_angsuran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 09:53:00 --> ErrorException: Undefined variable $angsuran
+[Method: GET, Route: b_angsuran]
+in APPPATH\Views\bayar-angsuran.php on line 9.
+ 1 APPPATH\Views\bayar-angsuran.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $angsuran', 'C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\bayar-angsuran.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\bayar-angsuran.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('bayar-angsuran', [], true)
+ 5 APPPATH\Controllers\b_angsuran.php(9): view('bayar-angsuran')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\b_angsuran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\b_angsuran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 09:53:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'koperasi', 3306, '', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\anggota.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Anggota->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\anggota.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Anggota->index()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-02-02 09:53:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: anggota]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `anggota`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\anggota.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anggota->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-02-02 09:53:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'koperasi', 3306, '', 0)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\anggota.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Anggota->index()
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#9 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci-kop-risalah\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci-kop-risalah\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci-kop-risalah\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci-kop-risalah\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci-kop-risalah\app\Controllers\anggota.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(933): App\Controllers\Anggota->index()
+#7 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+#8 C:\xampp\htdocs\ci-kop-risalah\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci-kop-risalah\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\ci-kop-risalah\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-02-02 09:53:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: anggota]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `anggota`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\anggota.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anggota->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anggota))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 11:52:07 --> ErrorException: Undefined variable $angsuran
+[Method: GET, Route: b_angsuran]
+in APPPATH\Views\bayar-angsuran.php on line 9.
+ 1 APPPATH\Views\bayar-angsuran.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $angsuran', 'C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\bayar-angsuran.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\bayar-angsuran.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('bayar-angsuran', [], true)
+ 5 APPPATH\Controllers\b_angsuran.php(9): view('bayar-angsuran')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\b_angsuran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\b_angsuran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 11:52:14 --> ErrorException: Undefined variable $angsuran
+[Method: GET, Route: b_angsuran]
+in APPPATH\Views\bayar-angsuran.php on line 9.
+ 1 APPPATH\Views\bayar-angsuran.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $angsuran', 'C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\bayar-angsuran.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\bayar-angsuran.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('bayar-angsuran', [], true)
+ 5 APPPATH\Controllers\b_angsuran.php(9): view('bayar-angsuran')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\b_angsuran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\b_angsuran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 11:52:14 --> ErrorException: Undefined variable $angsuran
+[Method: GET, Route: b_angsuran]
+in APPPATH\Views\bayar-angsuran.php on line 9.
+ 1 APPPATH\Views\bayar-angsuran.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $angsuran', 'C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\bayar-angsuran.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\bayar-angsuran.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('bayar-angsuran', [], true)
+ 5 APPPATH\Controllers\b_angsuran.php(9): view('bayar-angsuran')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\b_angsuran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\b_angsuran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 14:41:53 --> ErrorException: Undefined variable $angsuran
+[Method: GET, Route: b_angsuran]
+in APPPATH\Views\bayar-angsuran.php on line 9.
+ 1 APPPATH\Views\bayar-angsuran.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $angsuran', 'C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\bayar-angsuran.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci-kop-risalah\\app\\Views\\bayar-angsuran.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('bayar-angsuran', [], true)
+ 5 APPPATH\Controllers\b_angsuran.php(9): view('bayar-angsuran')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\b_angsuran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\b_angsuran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-02 15:17:44 --> ErrorException: Undefined variable $totalTime
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 49.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'C:\\xampp\\htdocs\\ci-kop-risalah\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 49)
+ 2 SYSTEMPATH\Debug\Toolbar.php(533): include('C:\\xampp\\htdocs\\ci-kop-risalah\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(496): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
