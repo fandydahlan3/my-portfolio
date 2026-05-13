@@ -1,175 +1,127 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React, { useState } from 'react';
+import { useAdminLogic } from '../hooks/useAdminLogic';
+import { simpanProyek, hapusProyek, hapusSkill } from '../api/AdminApi';
 
-// --- 1. KOMPONEN LOGIN PANEL ---
-const LoginPanel = ({ setAuth }) => {
-  const [password, setPassword] = useState('');
-
-  const handleLogin = async (e) => {
-    e.preventDefault();
-    try {
-      const res = await axios.post('http://localhost:5000/api/login', { password });
-      localStorage.setItem('token', res.data.token);
-      setAuth(true);
-    } catch (err) {
-      alert("Password Salah!");
-    }
-  };
-
-  return (
-    <div className="h-screen flex items-center justify-center bg-gray-950 text-white font-sans">
-      <form onSubmit={handleLogin} className="bg-gray-900 p-8 rounded-2xl border border-white/10 shadow-2xl w-80 text-center">
-        <h2 className="text-2xl font-bold mb-6 text-kuning-fandy uppercase tracking-widest">Admin Login</h2>
-        <input 
-          type="password" 
-          placeholder="Masukkan Password" 
-          className="w-full p-3 bg-gray-800 rounded-xl mb-4 outline-none focus:ring-2 focus:ring-kuning-fandy text-center text-white"
-          onChange={(e) => setPassword(e.target.value)} 
-          required 
-        />
-        <button className="w-full bg-kuning-fandy text-black py-2 rounded-xl font-bold hover:brightness-110 transition-all uppercase">
-          Masuk
-        </button>
-      </form>
-    </div>
-  );
-};
-
-// --- 2. KOMPONEN UTAMA ADMIN ---
-const Admin = () => {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [projects, setProjects] = useState([]);
-  const [skills, setSkills] = useState([]);
-  const [form, setForm] = useState({ title: '', category: '', image: '', description: '', tech_stack: '', project_url: '' });
-  const [formSkill, setFormSkill] = useState({ name: '', image_url: '' });
-
-  // Fungsi helper untuk ambil token terbaru tiap kali request
-  const getAuthHeader = () => ({
-    headers: { Authorization: localStorage.getItem('token') }
+function Admin() {
+  const { listKarya, listSkill, sedangMemuat, sinkronisasiData } = useAdminLogic();
+  
+  const [fromProyek, setFromProyek] = useState({
+    title: '', category: '', image: '', tech_stack: '', projeect_url: '', description: ''
   });
 
-  const refreshData = () => {
-    axios.get('http://localhost:5000/api/projects').then(res => setProjects(res.data)).catch(err => console.log(err));
-    axios.get('http://localhost:5000/api/skills').then(res => setSkills(res.data)).catch(err => console.log(err));
-  };
+  // PERBAIKAN 1: Ganti 'nam' jadi 'name' biar sama kayak database kamu
+  const [fromSkill, setFromSkill] = useState({ name: '', image_url: '' });
+  const [idEdit, setIdEdit] = useState(null);
 
-  useEffect(() => {
-    const token = localStorage.getItem('token');
-    if (token) setIsAuthenticated(true);
-    refreshData();
-  }, []);
-
-  const handleLogout = () => {
-    localStorage.removeItem('token');
-    setIsAuthenticated(false);
-  };
-
-  const handleProjectSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      await axios.post('http://localhost:5000/api/projects', form, getAuthHeader());
-      alert("Proyek Berhasil Ditambah!");
-      setForm({ title: '', category: '', image: '', description: '', tech_stack: '', project_url: '' });
-      refreshData();
-    } catch (err) {
-      alert("Gagal tambah proyek! Sesi mungkin habis, silakan relogin.");
+  function keluarSistem() {
+    if (window.confirm("Keluar dari Admin Panel?")) {
+      localStorage.removeItem('token');
+      window.location.reload();
     }
-  };
+  }
 
-  const handleSkillSubmit = async (e) => {
+  async function tanganiSimpanProyek(e) {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/skills', formSkill, getAuthHeader());
+      await simpanProyek(fromProyek, idEdit);
+      setFromProyek({ title: '', category: '', image: '', tech_stack: '', projeect_url: '', description: '' });
+      setIdEdit(null);
+      sinkronisasiData();
+      alert("Proyek Berhasil Disimpan!");
+    } catch (err) { alert("Gagal menyimpan proyek!"); }
+  }
+
+  async function tanganiSimpanSkill(e) {
+    e.preventDefault();
+    try {
+      // PERBAIKAN 2: Kirim fromSkill (yg udah pake key 'name')
+      await simpanProyek(fromSkill, null, true); 
+      setFromSkill({ name: '', image_url: '' });
+      sinkronisasiData();
       alert("Skill Berhasil Ditambah!");
-      setFormSkill({ name: '', image_url: '' });
-      refreshData();
-    } catch (err) {
-      alert("Gagal tambah skill!");
-    }
-  };
+    } catch (err) { alert("Gagal menyimpan skill!"); }
+  }
 
-  const deleteProject = async (id) => {
-    if (window.confirm("Hapus proyek ini?")) {
-      await axios.delete(`http://localhost:5000/api/projects/${id}`, getAuthHeader());
-      refreshData();
-    }
-  };
-
-  const deleteSkill = async (id) => {
-    if (window.confirm("Hapus skill ini?")) {
-      await axios.delete(`http://localhost:5000/api/skills/${id}`, getAuthHeader());
-      refreshData();
-    }
-  };
-
-  // Tampilan jika belum login
-  if (!isAuthenticated) return <LoginPanel setAuth={setIsAuthenticated} />;
-
-  // Tampilan Dashboard Admin
   return (
-    <div className="p-10 bg-gray-950 min-h-screen text-white space-y-12 font-sans relative">
-      <button 
-        onClick={handleLogout} 
-        className="absolute top-5 right-10 bg-red-600/20 text-red-500 border border-red-500/50 px-4 py-2 rounded-lg hover:bg-red-600 hover:text-white transition-all font-bold"
-      > 
-        LOGOUT 
-      </button>
-
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold mb-10 text-kuning-fandy text-center uppercase tracking-widest">Admin Panel</h1>
+    <div className="p-10 bg-[#0a0f1a] min-h-screen text-white space-y-12 font-sans relative text-left">
+      <button onClick={keluarSistem} className="absolute top-5 right-10 bg-red-600/20 text-red-500 border border-red-500/50 px-4 py-2 rounded-lg hover:bg-red-600 hover:text-white transition-all font-bold uppercase text-xs"> LOGOUT </button>
+      
+      <div className="max-w-4xl mx-auto space-y-10">
+        <h1 className="text-3xl font-black text-center text-yellow-500 uppercase tracking-widest">ADMIN PANEL</h1>
 
         {/* --- FORM PROYEK --- */}
-        <form onSubmit={handleProjectSubmit} className="bg-gray-900 p-8 rounded-2xl shadow-xl mb-10 space-y-4 border border-white/10">
-          <h2 className="text-xl font-bold mb-4 border-l-4 border-kuning-fandy pl-3 text-white text-left">Tambah Proyek</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-black">
-            <input type="text" placeholder="Nama Proyek" className="p-3 bg-gray-800 rounded-xl outline-none focus:ring-2 focus:ring-kuning-fandy text-white" value={form.title} onChange={e => setForm({...form, title: e.target.value})} required />
-            <input type="text" placeholder="Kategori" className="p-3 bg-gray-800 rounded-xl outline-none focus:ring-2 focus:ring-kuning-fandy text-white" value={form.category} onChange={e => setForm({...form, category: e.target.value})} required />
-          </div>
-          <input type="text" placeholder="Link Gambar (/images/foto.jpg)" className="w-full p-3 bg-gray-800 rounded-xl outline-none focus:ring-2 focus:ring-kuning-fandy text-white" value={form.image} onChange={e => setForm({...form, image: e.target.value})} />
-          <input type="text" placeholder="Tech Stack (React, MySQL, dll)" className="w-full p-3 bg-gray-800 rounded-xl outline-none focus:ring-2 focus:ring-kuning-fandy text-white" value={form.tech_stack} onChange={e => setForm({...form, tech_stack: e.target.value})} />
-          <input type="text" placeholder="Link Proyek / GitHub URL" className="w-full p-3 bg-gray-800 rounded-xl outline-none focus:ring-2 focus:ring-kuning-fandy text-white" value={form.project_url} onChange={e => setForm({...form, project_url: e.target.value})} />
-          <textarea placeholder="Deskripsi Singkat" className="w-full p-3 bg-gray-800 rounded-xl h-24 outline-none focus:ring-2 focus:ring-kuning-fandy text-white" value={form.description} onChange={e => setForm({...form, description: e.target.value})} required></textarea>
-          <button type="submit" className="w-full bg-kuning-fandy text-black py-3 rounded-xl font-bold hover:brightness-110 transition-all uppercase">Simpan Proyek</button>
-        </form>
-
-        {/* --- FORM SKILLS --- */}
-        <form onSubmit={handleSkillSubmit} className="bg-gray-900 p-8 rounded-2xl shadow-xl space-y-4 border border-white/10">
-          <h2 className="text-xl font-bold mb-4 border-l-4 border-blue-500 pl-3 text-white text-left">Tambah Skill Baru</h2>
+        <form onSubmit={tanganiSimpanProyek} className={`p-8 rounded-2xl shadow-xl space-y-4 border ${idEdit ? 'bg-blue-900/20 border-blue-500/50' : 'bg-[#111827] border-white/10'}`}>
+          <h2 className="text-xl font-bold border-l-4 border-yellow-500 pl-3 mb-4">{idEdit ? 'EDIT PROYEK' : 'TAMBAH PROYEK'}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <input type="text" placeholder="Nama Skill" className="p-3 bg-gray-800 rounded-xl outline-none focus:ring-2 focus:ring-blue-500 text-white" value={formSkill.name} onChange={e => setFormSkill({...formSkill, name: e.target.value})} required />
-            <input type="text" placeholder="Link Ikon (/images/logo.png)" className="p-3 bg-gray-800 rounded-xl outline-none focus:ring-2 focus:ring-blue-500 text-white" value={formSkill.image_url} onChange={e => setFormSkill({...formSkill, image_url: e.target.value})} required />
+            <input type="text" placeholder='Nama Proyek' className="p-3 bg-[#1f2937] rounded-xl outline-none" value={fromProyek.title} onChange={e => setFromProyek({...fromProyek, title: e.target.value})} required />
+            <select className="p-3 bg-[#1f2937] rounded-xl outline-none text-gray-400 font-bold" value={fromProyek.category} onChange={e => setFromProyek({...fromProyek, category: e.target.value})}>
+              <option value="">Pilih Kategori</option>
+              <option value="Web Development">Web Development</option>
+              <option value="Data Science">Data Science</option>
+            </select>
           </div>
-          <button type="submit" className="w-full bg-blue-600 text-white py-3 rounded-xl font-bold hover:brightness-110 transition-all uppercase">Simpan Skill</button>
+          <input type="text" placeholder='Link Gambar' className="w-full p-3 bg-[#1f2937] rounded-xl outline-none" value={fromProyek.image} onChange={e => setFromProyek({...fromProyek, image: e.target.value})} />
+          <input type="text" placeholder='Tech Stack' className="w-full p-3 bg-[#1f2937] rounded-xl outline-none" value={fromProyek.tech_stack} onChange={e => setFromProyek({...fromProyek, tech_stack: e.target.value})} />
+          <input type="text" placeholder='URL Live' className="w-full p-3 bg-[#1f2937] rounded-xl outline-none" value={fromProyek.projeect_url} onChange={e => setFromProyek({...fromProyek, projeect_url: e.target.value})} />
+          <textarea placeholder='Deskripsi' className="w-full p-3 bg-[#1f2937] rounded-xl outline-none h-28 resize-none text-white" value={fromProyek.description} onChange={e => setFromProyek({...fromProyek, description: e.target.value})}></textarea>
+          <button type="submit" className="w-full py-4 bg-yellow-500 text-black font-black rounded-xl hover:bg-yellow-400 uppercase tracking-widest transition-all shadow-lg shadow-yellow-500/10"> {idEdit ? 'UPDATE DATA' : 'SIMPAN PROYEK'} </button>
         </form>
 
-        {/* --- DAFTAR DATA (MANAGE) --- */}
-        <div className="mt-12 bg-gray-900 p-8 rounded-2xl border border-white/10 space-y-8 shadow-2xl text-left">
-          <div>
-            <h3 className="text-lg font-bold mb-4 text-gray-400 uppercase tracking-wider">Proyek Aktif</h3>
-            <div className="grid grid-cols-1 gap-3">
-              {projects.map(p => (
-                <div key={p.id} className="flex justify-between items-center bg-white/5 p-4 rounded-xl border border-white/5 hover:bg-white/10 transition-all">
-                  <span className="font-medium">{p.title}</span>
-                  <button onClick={() => deleteProject(p.id)} className="text-red-500 hover:text-red-400 font-bold underline text-sm">Hapus</button>
-                </div>
-              ))}
+        {/* --- FORM SKILL --- */}
+        <form onSubmit={tanganiSimpanSkill} className="p-8 bg-[#111827] rounded-2xl border border-white/10 shadow-xl space-y-4">
+          <h2 className="text-xl font-bold border-l-4 border-blue-500 pl-3 mb-4 uppercase text-white">Tambah Skill</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <input type="text" placeholder='Nama Skill' className="p-3 bg-[#1f2937] rounded-xl text-white outline-none" value={fromSkill.name} onChange={e => setFromSkill({...fromSkill, name: e.target.value})} required />
+            <input type="text" placeholder='Link Ikon (/images/node.png)' className="p-3 bg-[#1f2937] rounded-xl text-white outline-none" value={fromSkill.image_url} onChange={e => setFromSkill({...fromSkill, image_url: e.target.value})} required />
+          </div>
+          <button type="submit" className="w-full py-4 bg-blue-600 text-white font-black rounded-xl hover:bg-blue-500 uppercase tracking-widest transition-all"> SIMPAN SKILL </button>
+        </form>
+
+        {/* --- MANAGE DATA --- */}
+        <div className="space-y-8">
+          {/* Skill Aktif */}
+          <div className="p-8 bg-[#111827]/50 rounded-2xl border border-white/10 shadow-inner">
+            <h3 className="text-[10px] font-bold text-gray-500 mb-6 uppercase tracking-[0.3em]">Skill Aktif</h3>
+            <div className="flex flex-wrap gap-5">
+              {listSkill.length === 0 ? (
+                <p className="text-gray-600 italic text-sm">Belum ada skill.</p>
+              ) : (
+                listSkill.map((s) => (
+                  <div key={s.id} className="relative group bg-[#0a0f1a] p-2 rounded-xl border border-white/5 hover:border-blue-500/50 transition-all">
+                    {/* PERBAIKAN 3: Pake s.image_url dan s.name (sesuai database) */}
+                    <img src={s.image_url} alt={s.name} className="w-10 h-10 object-contain p-1" onError={(e) => {e.target.src="https://placeholder.com?"}} />
+                    <span className="block text-[8px] text-center mt-1 text-gray-400 uppercase font-bold">{s.name}</span>
+                    <button onClick={() => { if (window.confirm(`Hapus ${s.name}?`)) { hapusSkill(s.id); sinkronisasiData(); } }} className="absolute -top-2 -right-2 bg-red-600 text-white w-5 h-5 rounded-full text-[10px] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity shadow-lg" >✕</button>
+                  </div>
+                ))
+              )}
             </div>
           </div>
-          <div>
-            <h3 className="text-lg font-bold mb-4 text-gray-400 uppercase tracking-wider">Skills Aktif</h3>
-            <div className="flex flex-wrap gap-3">
-              {skills.map(s => (
-                <div key={s.id} className="bg-blue-900/30 px-4 py-2 rounded-full flex gap-3 border border-blue-500/30 items-center">
-                  <span className="text-sm font-semibold">{s.name}</span>
-                  <button onClick={() => deleteSkill(s.id)} className="text-red-400 hover:text-white font-bold">✕</button>
-                </div>
-              ))}
+
+          {/* Proyek Aktif */}
+          <div className="p-8 bg-[#111827]/50 rounded-2xl border border-white/10">
+            <h3 className="text-[10px] font-bold text-gray-500 mb-6 uppercase tracking-[0.3em]">Koleksi Proyek Saya</h3>
+            <div className="space-y-4">
+              {sedangMemuat ? ( <p className="text-gray-500 italic text-center py-4">Memuat data...</p> ) : (
+                listKarya.map((item) => (
+                  <div key={item.id} className="flex justify-between items-center p-5 bg-[#0a0f1a]/60 rounded-2xl border border-white/5 hover:border-yellow-500/20 transition-all">
+                    <div>
+                      <p className="font-bold text-gray-200 text-sm uppercase tracking-tight">{item.title}</p>
+                      <span className="text-[9px] text-gray-600 uppercase font-black">{item.category}</span>
+                    </div>
+                    <div className="flex gap-4 text-[10px] font-black uppercase tracking-tighter">
+                      <button onClick={() => { setIdEdit(item.id); setFromProyek(item); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="text-blue-500">Edit</button>
+                      <button onClick={() => { if (window.confirm('Hapus proyek?')) { hapusProyek(item.id); sinkronisasiData(); } }} className="text-red-600">Hapus</button>
+                    </div>
+                  </div>
+                ))
+              )}
             </div>
           </div>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Admin;

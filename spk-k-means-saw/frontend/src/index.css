@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@media print {
+  /* Sembunyikan SEMUA elemen di layar */
+  body * {
+    visibility: hidden !important;
+  }
+
+  /* Tampilkan HANYA area tabel dan semua isinya */
+  #area-tabel, 
+  #area-tabel * {
+    visibility: visible !important;
+  }
+
+  /* Atur posisi tabel agar rapi di kertas putih (paling atas) */
+  #area-tabel {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    display: block !important; /* Membuat tabel tersusun atas-bawah di kertas */
+  }
+
+  /* Hilangkan shadow agar print bersih dan paksa warna muncul */
+  #area-tabel > div {
+    box-shadow: none !important;
+    border: 1px solid #e2e8f0 !important;
+    margin-bottom: 20px !important;
+    page-break-inside: avoid;
+  }
+
+  /* Paksa browser mencetak warna latar belakang (biru/orange) */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}

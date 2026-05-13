@@ -1,61 +1,29 @@
-require('dotenv').config();
-const express = require('express');
-const mysql = require('mysql2');
-const cors = require('cors');
-const jwt = require('jsonwebtoken');
-
-const app = express();
-app.use(cors());
-app.use(express.json());
-
-// --- LOGIKA LOGIN (Otak yang ngecek password) ---
-const PASSWORD_ASLI = "fandy123"; 
-
-app.post('/api/login', (req, res) => {
-  const { password } = req.body;
-  if (password === PASSWORD_ASLI) {
-    const token = jwt.sign({ role: 'admin' }, "RAHASIA_FANDY", { expiresIn: '1h' });
-    res.json({ success: true, token });
-  } else {
-    res.status(401).json({ success: false, message: "Salah!" });
-  }
-});
-
-// Gunakan pool agar koneksi lebih stabil (Best Practice Engineer)
-const db = mysql.createPool({
-  host: process.env.DB_HOST || '127.0.0.1',
-  port: process.env.DB_PORT || 3307,
-  user: process.env.DB_USER || 'root',
-  password: process.env.DB_PASS || '',
-  database: process.env.DB_NAME || 'db_porto_fandy',
-  waitForConnections: true,
-  connectionLimit: 10
-});
-
-// Cek koneksi
-db.getConnection((err) => {
-  if (err) return console.error('❌ Database Konek Gagal:', err.message);
-  console.log('✅ DATABASE CONNECTED VIA POOL!');
-});
-
-// --- API PROJECTS ---
-app.get('/api/projects', (req, res) => {
-  db.query("SELECT * FROM projects ORDER BY id DESC", (err, result) => {
-    if (err) return res.status(500).json({ error: "Gagal mengambil data proyek" });
-    res.json(result);
-  });
-});
-
-// --- API SKILLS ---
-app.get('/api/skills', (req, res) => {
-  db.query("SELECT * FROM skills", (err, result) => {
-    if (err) return res.status(500).json({ error: "Gagal mengambil data skills" });
-    res.json(result);
-  });
-});
-
-// Tambahkan Endpoint baru untuk Testing/Health Check
-app.get('/', (req, res) => res.send('Backend Porto Fandy is Running! 🚀'));
-
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`🚀 Server on port ${PORT}`));
+{/* --- AREA SKILL AKTIF --- */}
+<div className="mt-10 p-8 bg-gray-900/30 rounded-2xl border border-white/10">
+  <h3 className="text-xs font-bold text-gray-500 mb-6 uppercase tracking-widest">Skill Aktif</h3>
+  <div className="flex flex-wrap gap-4">
+    {listSkill && listSkill.length > 0 ? (
+      listSkill.map((s) => (
+        <div key={s.id} className="relative group bg-gray-800 p-3 rounded-xl border border-white/5 flex flex-col items-center min-w-[80px]">
+          {/* Menampilkan Gambar */}
+          <img 
+            src={s.image_url} 
+            alt={s.name} 
+            className="w-10 h-10 object-contain mb-2" 
+            onError={(e) => { e.target.src = "https://placeholder.com?" }} 
+          />
+          {/* Pakai s.name (BUKAN s.nam) */}
+          <span className="text-[10px] font-bold text-blue-400 uppercase text-center">{s.name}</span>
+          
+          {/* Tombol Hapus */}
+          <button 
+            onClick={() => { if (window.confirm(`Hapus ${s.name}?`)) { hapusSkill(s.id); sinkronisasiData(); } }}
+            className="absolute -top-2 -right-2 bg-red-600 text-white w-5 h-5 rounded-full text-[10px] flex items-center justify-center shadow-lg"
+          >✕</button>
+        </div>
+      ))
+    ) : (
+      <p className="text-gray-600 italic text-sm">Belum ada skill di database.</p>
+    )}
+  </div>
+</div>
