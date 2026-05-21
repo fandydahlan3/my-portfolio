@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useAdminLogic } from '../hooks/useAdminLogic';
+import { useAdminlogic } from '../hooks/useAdminlogic';
 import { simpanProyek, hapusProyek, hapusSkill } from '../api/AdminApi';
 
 function Admin() {
