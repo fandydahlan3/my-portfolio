@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAdminlogic } from '../hooks/useAdminlogic';
-import { simpanProyek, hapusProyek, hapusSkill } from '../api/AdminApi';
+import { simpanProyek, hapusProyek, hapusSkill } from '../api/adminApi';
 
 function Admin() {
   const { listKarya, listSkill, sedangMemuat, sinkronisasiData } = useAdminLogic();
