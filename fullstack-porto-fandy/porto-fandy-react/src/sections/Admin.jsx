@@ -3,7 +3,7 @@ import { useAdminlogic } from '../hooks/useAdminlogic';
 import { simpanProyek, hapusProyek, hapusSkill } from '../api/adminApi';
 
 function Admin() {
-  const { listKarya, listSkill, sedangMemuat, sinkronisasiData } = useAdminLogic();
+  const { listKarya, listSkill, sedangMemuat, sinkronisasiData } = useAdminlogic();
   
   const [fromProyek, setFromProyek] = useState({
     title: '', category: '', image: '', tech_stack: '', projeect_url: '', description: ''
