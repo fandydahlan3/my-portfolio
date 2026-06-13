@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
-import { useAdminlogic } from '../hooks/useAdminlogic';
+// PERBAIKAN: Menggunakan kurung kurawal dengan huruf L kapital sesuai file aslinya
+import { useAdminLogic } from '../hooks/useAdminlogic';
 import { simpanProyek, hapusProyek, hapusSkill } from '../api/adminApi';
 
 function Admin() {
-  const { listKarya, listSkill, sedangMemuat, sinkronisasiData } = useAdminlogic();
+  // PERBAIKAN: Mengubah pemanggilan fungsi menjadi useAdminLogic (L kapital)
+  const { listKarya, listSkill, sedangMemuat, sinkronisasiData } = useAdminLogic();
   
   const [fromProyek, setFromProyek] = useState({
     title: '', category: '', image: '', tech_stack: '', projeect_url: '', description: ''
   });
 
-  // PERBAIKAN 1: Ganti 'nam' jadi 'name' biar sama kayak database kamu
   const [fromSkill, setFromSkill] = useState({ name: '', image_url: '' });
   const [idEdit, setIdEdit] = useState(null);
 
@@ -34,7 +35,6 @@ function Admin() {
   async function tanganiSimpanSkill(e) {
     e.preventDefault();
     try {
-      // PERBAIKAN 2: Kirim fromSkill (yg udah pake key 'name')
       await simpanProyek(fromSkill, null, true); 
       setFromSkill({ name: '', image_url: '' });
       sinkronisasiData();
@@ -88,7 +88,6 @@ function Admin() {
               ) : (
                 listSkill.map((s) => (
                   <div key={s.id} className="relative group bg-[#0a0f1a] p-2 rounded-xl border border-white/5 hover:border-blue-500/50 transition-all">
-                    {/* PERBAIKAN 3: Pake s.image_url dan s.name (sesuai database) */}
                     <img src={s.image_url} alt={s.name} className="w-10 h-10 object-contain p-1" onError={(e) => {e.target.src="https://placeholder.com?"}} />
                     <span className="block text-[8px] text-center mt-1 text-gray-400 uppercase font-bold">{s.name}</span>
                     <button onClick={() => { if (window.confirm(`Hapus ${s.name}?`)) { hapusSkill(s.id); sinkronisasiData(); } }} className="absolute -top-2 -right-2 bg-red-600 text-white w-5 h-5 rounded-full text-[10px] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity shadow-lg" >✕</button>
@@ -124,5 +123,4 @@ function Admin() {
   );
 }
 
-export { useAdminlogic };
-
+export default Admin;
