@@ -6,7 +6,7 @@ const staticProjects = [
   {
     id: 1,
     title: "Pendaftaran Santri Baru (PSB)",
-    category: "Full stack developer",
+    category: "Full Stack",
     description: "Aplikasi Pendaftaran santri baru responsif untuk memudahkan calon santri baru untuk mendaftar secara online.",
     image: "/images/project-psb.png", 
     project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/psb.smpit-arrisalahcariu.sch.id",
@@ -15,7 +15,7 @@ const staticProjects = [
   {
     id: 2,
     title: "KOPRASI ABATASA",
-    category: "Full stack developer",
+    category: "Full Stack",
     description: "Aplikasi Koprasi ABATASA untuk transaksi dan detail transaksi USER.",
     image: "/images/ABATAS.png", 
     project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/ci-kop-risalah",
@@ -33,7 +33,7 @@ const staticProjects = [
   {
     id: 4,
     title: "Aplikasi SPK Atlet Climbing",
-    category: "Full stack developer",
+    category: "Full Stack",
     description: "Aplikasi Penunjang keputusan Atlet Climbing untuk menentukan yang layak mengikuti perlombaan.",
     image: "/images/SPK.png", 
     project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/spk-k-means-saw",
@@ -51,7 +51,7 @@ const staticProjects = [
   {
     id: 6,
     title: "Aplikasi Tinggal Klik",
-    category: "Frontend Developer",
+    category: "Frontend",
     description: "Media portofolio fandy berbasis Website.",
     image: "/images/Tiggal_klik.png", 
     project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/tinggalklik-landing-page",
@@ -73,7 +73,7 @@ const Portfolio = () => {
   });
 
   const displayedProjects = filteredProjects.slice(0, visibleCount);
-  const categories = ["All", "Full stack","Backend", "Frontend", "Data Science", "Mobile & Multimedia"];
+  const categories = ["All", "Full Stack","Backend", "Frontend", "Data Science", "Mobile & Multimedia"];
 
   return (
     <section id="portfolio" className="py-20 bg-[#F8F9FA]">
