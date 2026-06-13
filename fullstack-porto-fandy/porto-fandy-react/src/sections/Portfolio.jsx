@@ -90,15 +90,15 @@ const Portfolio = () => {
         </div>
 
         {/* --- TOMBOL FILTER --- */}
-        <div className="flex flex-wrap justify-center gap-2 mb-12">
+        <div className="flex flex-row justify-start md:justify-center items-center gap-3 overflow-x-auto no-scrollbar mb-12 px-6 py-2">
           {categories.map((cat) => (
             <button
               key={cat}
               onClick={() => {
                 setActiveFilter(cat);
-                setVisibleCount(8); 
+                setVisibleCount(8);
               }}
-              className={`px-5 py-2 rounded-full text-xs font-bold transition-all duration-300 border ${
+              className={`px-5 py-2 rounded-full text-xs font-bold transition-all duration-300 border flex-shrink-0 whitespace-nowrap ${
                 activeFilter === cat
                   ? "bg-hijau-fandy text-white border-hijau-fandy shadow-lg"
                   : "bg-white text-gray-500 border-gray-200 hover:border-kuning-fandy hover:text-kuning-fandy"
