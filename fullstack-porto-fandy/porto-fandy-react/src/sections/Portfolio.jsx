@@ -23,21 +23,21 @@ const staticProjects = [
   },
   {
     id: 3,
-    title: "Data Analisis Penjualan Retail",
+    title: "Penerapan Metode K-means Dan Metode Simple Additive Weighting (SAW)",
     category: "Data Science",
-    description: "Analisis tren penjualan menggunakan Python dan visualisasi data interaktif untuk prediksi stok.",
-    image: "/logo/python.png", 
-    project_url: "https://github.com",
-    tech_stack: "Python, Pandas, Seaborn"
+    description: "Penerapan Metode K-means Dan Metode Simple Additive Weighting (SAW) Untuk Rekomendasi Atlit Panjat Tebing Yang Akan Mengikuti Perlombaan",
+    image: "/images/SAW_lead.png", 
+    project_url: "https://drive.google.com/file/d/1Z0_DGZEVaacOS8vgwnwXQefwwFNU5kpG/view?usp=sharing",
+    tech_stack: "K-means, SAW, prototype, diagram activity, use case diagram, dll."
   },
   {
     id: 4,
-    title: "Aplikasi Augmented Reality Edukasi",
+    title: "Aplikasi Portofolio Fandy",
     category: "Mobile & Multimedia",
-    description: "Media pembelajaran interaktif berbasis Android untuk mengenalkan tata surya secara 3D.",
-    image: "/logo/figma1.png", 
-    project_url: "https://github.com",
-    tech_stack: "Unity, C#, Blender"
+    description: "Media portofolio fandy berbasis Website.",
+    image: "/images/porto_figma.png", 
+    project_url: "https://www.figma.com/design/cq2ZMChE2nWHM87wXlEshm/PORTO-FANDY?node-id=0-1&t=ZqvxH2BpHPPhzAAJ-1",
+    tech_stack: "Figma"
   },
   // Anda bisa menambah baris data proyek baru di sini sesuka hati...
 ];
