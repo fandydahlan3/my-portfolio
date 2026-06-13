@@ -1,0 +1,23 @@
+@import url(../../../index.css);
+
+h2 span {
+    color: var(--orange);
+}
+
+tr .home-bottom {
+    background-color: var(--orange);
+    text-align: center;
+    border-radius: 50% / 100% 100% 0 0;
+}
+
+.home-card .card {
+    border-color: var(--orange);
+    text-align: center;
+    font-size: small;
+}
+
+.home-card img {
+    max-width: 72px;
+    align-items: center;
+    margin: 0 auto;
+}

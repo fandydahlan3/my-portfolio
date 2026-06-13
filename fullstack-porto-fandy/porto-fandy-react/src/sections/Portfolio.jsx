@@ -6,7 +6,7 @@ const staticProjects = [
   {
     id: 1,
     title: "Pendaftaran Santri Baru (PSB)",
-    category: "Web Development",
+    category: "Full stack developer",
     description: "Aplikasi Pendaftaran santri baru responsif untuk memudahkan calon santri baru untuk mendaftar secara online.",
     image: "/images/project-psb.png", 
     project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/psb.smpit-arrisalahcariu.sch.id",
@@ -15,7 +15,7 @@ const staticProjects = [
   {
     id: 2,
     title: "KOPRASI ABATASA",
-    category: "Web Development",
+    category: "Full stack developer",
     description: "Aplikasi Koprasi ABATASA untuk transaksi dan detail transaksi USER.",
     image: "/images/ABATAS.png", 
     project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/ci-kop-risalah",
@@ -32,8 +32,26 @@ const staticProjects = [
   },
   {
     id: 4,
+    title: "Aplikasi SPK Atlet Climbing",
+    category: "Full stack developer",
+    description: "Aplikasi Penunjang keputusan Atlet Climbing untuk menentukan yang layak mengikuti perlombaan.",
+    image: "/images/SPK.png", 
+    project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/spk-k-means-saw",
+    tech_stack: "React, Vite, Node.js, Express.js, Python, Tailwind CSS"
+  },
+  {
+    id: 5,
     title: "Aplikasi Portofolio Fandy",
     category: "Mobile & Multimedia",
+    description: "Media portofolio fandy berbasis Website.",
+    image: "/images/porto_figma.png", 
+    project_url: "https://www.figma.com/design/cq2ZMChE2nWHM87wXlEshm/PORTO-FANDY?node-id=0-1&t=ZqvxH2BpHPPhzAAJ-1",
+    tech_stack: "Figma"
+  },
+  {
+    id: 6,
+    title: "Aplikasi Tinggal Klik",
+    category: "Frontend Developer",
     description: "Media portofolio fandy berbasis Website.",
     image: "/images/porto_figma.png", 
     project_url: "https://www.figma.com/design/cq2ZMChE2nWHM87wXlEshm/PORTO-FANDY?node-id=0-1&t=ZqvxH2BpHPPhzAAJ-1",
@@ -55,7 +73,7 @@ const Portfolio = () => {
   });
 
   const displayedProjects = filteredProjects.slice(0, visibleCount);
-  const categories = ["All", "Web Development", "Data Science", "Mobile & Multimedia"];
+  const categories = ["All", "Full stack developer","Backend Developer", "Frontend Developer", "Data Science", "Mobile & Multimedia"];
 
   return (
     <section id="portfolio" className="py-20 bg-[#F8F9FA]">
