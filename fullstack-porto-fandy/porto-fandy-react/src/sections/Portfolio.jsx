@@ -8,9 +8,9 @@ const staticProjects = [
     title: "E-Commerce Gadget Shop",
     category: "Web Development",
     description: "Aplikasi toko online responsif dengan fitur keranjang belanja dan payment gateway simulator.",
-    image: "/logo/tailwind.png", // Ganti dengan foto screenshot proyek Anda di folder public/logo/
-    project_url: "https://github.com",
-    tech_stack: "React, Tailwind, Node.js"
+    image: "/logo/project-psb.png", 
+    project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/psb.smpit-arrisalahcariu.sch.id",
+    tech_stack: "PHP, bootstrap, HTML, CSS,"
   },
   {
     id: 2,
