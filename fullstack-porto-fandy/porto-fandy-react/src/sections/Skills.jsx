@@ -6,7 +6,7 @@ import "swiper/css";
 
 // 1. DATA YANG DIUBAH: Menggunakan data lokal (silakan sesuaikan namanya)
 const staticSkills = [
-  { id: 1, name: "React.js", image_url: "/images/react.png" },
+  { id: 1, name: "React.js", image_url: "/logo/bootstrap.png" },
   { id: 2, name: "Node.js", image_url: "/images/node.png" },
   { id: 3, name: "Tailwind CSS", image_url: "/images/tailwind.png" },
   { id: 4, name: "Python", image_url: "/images/python.png" },
