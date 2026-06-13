@@ -8,7 +8,7 @@ const staticProjects = [
     title: "Pendaftaran Santri Baru (PSB)",
     category: "Web Development",
     description: "Aplikasi Pendaftaran santri baru responsif untuk memudahkan calon santri baru untuk mendaftar secara online.",
-    image: "/logo/project-psb.png", 
+    image: "/images/project-psb.png", 
     project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/psb.smpit-arrisalahcariu.sch.id",
     tech_stack: "PHP, bootstrap, HTML, CSS,"
   },
