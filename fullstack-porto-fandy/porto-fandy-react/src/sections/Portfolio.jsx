@@ -53,9 +53,9 @@ const staticProjects = [
     title: "Aplikasi Tinggal Klik",
     category: "Frontend Developer",
     description: "Media portofolio fandy berbasis Website.",
-    image: "/images/porto_figma.png", 
-    project_url: "https://www.figma.com/design/cq2ZMChE2nWHM87wXlEshm/PORTO-FANDY?node-id=0-1&t=ZqvxH2BpHPPhzAAJ-1",
-    tech_stack: "Figma"
+    image: "/images/Tiggal_klik.png", 
+    project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/tinggalklik-landing-page",
+    tech_stack: "Ract, vite"
   },
   // Anda bisa menambah baris data proyek baru di sini sesuka hati...
 ];
