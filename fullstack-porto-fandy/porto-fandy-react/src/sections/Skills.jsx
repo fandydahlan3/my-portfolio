@@ -8,7 +8,7 @@ import "swiper/css";
 const staticSkills = [
   { id: 1, name: "React.js", image_url: "/logo/react.png" },
   { id: 2, name: "Node.js", image_url: "/logo/node.png" },
-  { id: 3, name: "Tailwind CSS", image_url: "/logo/tailwind.png" },
+  { id: 3, name: "Tailwind CSS", image_url: "/logo/tailwin.png" },
   { id: 4, name: "Python", image_url: "/logo/python.png" },
   { id: 5, name: "MySQL / SQL", image_url: "/logo/sql.png" },
   { id: 6, name: "Figma", image_url: "/logo/figma1.png" },
