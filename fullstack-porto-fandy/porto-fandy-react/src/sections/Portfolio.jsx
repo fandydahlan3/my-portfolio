@@ -73,7 +73,7 @@ const Portfolio = () => {
   });
 
   const displayedProjects = filteredProjects.slice(0, visibleCount);
-  const categories = ["All", "Full stack developer","Backend Developer", "Frontend Developer", "Data Science", "Mobile & Multimedia"];
+  const categories = ["All", "Full stack","Backend", "Frontend", "Data Science", "Mobile & Multimedia"];
 
   return (
     <section id="portfolio" className="py-20 bg-[#F8F9FA]">
