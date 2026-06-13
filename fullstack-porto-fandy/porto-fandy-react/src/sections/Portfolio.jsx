@@ -5,9 +5,9 @@ import React, { useState } from "react";
 const staticProjects = [
   {
     id: 1,
-    title: "E-Commerce Gadget Shop",
+    title: "Pendaftaran Santri Baru (PSB)",
     category: "Web Development",
-    description: "Aplikasi toko online responsif dengan fitur keranjang belanja dan payment gateway simulator.",
+    description: "Aplikasi Pendaftaran santri baru responsif untuk memudahkan calon santri baru untuk mendaftar secara online.",
     image: "/logo/project-psb.png", 
     project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/psb.smpit-arrisalahcariu.sch.id",
     tech_stack: "PHP, bootstrap, HTML, CSS,"
