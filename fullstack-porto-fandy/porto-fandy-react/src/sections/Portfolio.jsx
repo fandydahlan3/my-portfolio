@@ -10,10 +10,19 @@ const staticProjects = [
     description: "Aplikasi Pendaftaran santri baru responsif untuk memudahkan calon santri baru untuk mendaftar secara online.",
     image: "/images/project-psb.png", 
     project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/psb.smpit-arrisalahcariu.sch.id",
-    tech_stack: "PHP, bootstrap, HTML, CSS,"
+    tech_stack: "PHP, bootstrap, HTML, CSS"
   },
   {
     id: 2,
+    title: "KOPRASI ABATASA",
+    category: "Web Development",
+    description: "Aplikasi Koprasi ABATASA untuk transaksi dan detail transaksi USER.",
+    image: "/images/ABATAS.png", 
+    project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/ci-kop-risalah",
+    tech_stack: "PHP, bootstrap, CodeIgniter 4, HTML, CSS"
+  },
+  {
+    id: 3,
     title: "Data Analisis Penjualan Retail",
     category: "Data Science",
     description: "Analisis tren penjualan menggunakan Python dan visualisasi data interaktif untuk prediksi stok.",
@@ -22,7 +31,7 @@ const staticProjects = [
     tech_stack: "Python, Pandas, Seaborn"
   },
   {
-    id: 3,
+    id: 4,
     title: "Aplikasi Augmented Reality Edukasi",
     category: "Mobile & Multimedia",
     description: "Media pembelajaran interaktif berbasis Android untuk mengenalkan tata surya secara 3D.",
