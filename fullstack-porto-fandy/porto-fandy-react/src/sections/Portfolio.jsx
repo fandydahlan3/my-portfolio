@@ -90,7 +90,7 @@ const Portfolio = () => {
         </div>
 
         {/* --- TOMBOL FILTER --- */}
-        <div className="flex flex-wrap justify-center items-center gap-3 max-w-4xl mx-auto mb-12 px-4">
+        <div className="flex flex-wrap justify-center items-center gap-2 max-w-2xl mx-auto mb-12 px-4">
   {categories.map((cat) => (
     <button
       key={cat}
@@ -98,10 +98,10 @@ const Portfolio = () => {
         setActiveFilter(cat);
         setVisibleCount(8); 
       }}
-      className={`px-5 py-2.5 rounded-full text-xs font-bold transition-all duration-300 border flex-shrink-0 whitespace-nowrap tracking-wide shadow-sm ${
+      className={`px-3.5 py-2 rounded-full text-[11px] font-bold transition-all duration-300 border whitespace-nowrap tracking-tight ${
         activeFilter === cat
-          ? "bg-hijau-fandy text-white border-hijau-fandy shadow-md scale-105"
-          : "bg-white text-gray-500 border-gray-200 hover:border-kuning-fandy hover:text-kuning-fandy hover:scale-105"
+          ? "bg-hijau-fandy text-white border-hijau-fandy shadow-md"
+          : "bg-white text-gray-500 border-gray-200 hover:border-kuning-fandy hover:text-kuning-fandy"
       }`}
     >
       {cat}
