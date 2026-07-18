@@ -4,8 +4,8 @@ const About = () => {
   // Data statistik untuk sisi kanan
   const stats = [
     { label: 'Projects Completed', value: '10+' },
-    { label: 'Tech Stack', value: '5+' },
-    { label: 'Experience', value: '2Y+' },
+    { label: 'Technologies', value: '10+' },
+    { label: 'Years Learning & Building', value: '2Y+' },
   ];
 
   return (
@@ -26,13 +26,13 @@ const About = () => {
 
             <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
               <p>
-                I am a dedicated <span className="text-white font-medium">Engineer, Multimedia Developer, and Data Science Specialist</span> with a passion for building dynamic web applications. I specialize in transforming complex data into actionable insights and robust digital products.
+                I'm a <span className="text-white font-medium">Software Developer and Data Analyst</span> with a passion for building modern, scalable, and user-centered digital solutions.
               </p>
               <p>
-                One of my key achievements is developing a <span className="text-white font-medium">Decision Support System</span> that integrates <span className="italic">K-Means Clustering</span> and <span className="italic">Simple Additive Weighting (SAW)</span> to optimize athlete selection.
+                My expertise spans <span className="text-white font-medium">UI/UX Design, Frontend Development, Backend Development, Full Stack Development, and Data Analysis</span>. I enjoy transforming ideas into reliable web and mobile applications while designing efficient systems and extracting valuable insights from data.
               </p>
               <p>
-                My core expertise spans <span className="text-kuning-fandy">Web Development</span> (React, Laravel), <span className="text-kuning-fandy">Data Science</span> (Python, K-Means), and <span className="text-kuning-fandy">Creative Multimedia</span>.
+                I am committed to continuous learning and always strive to write <span className="text-kuning-fandy font-medium">clean, maintainable, and high-quality code</span> that delivers real value.
               </p>
             </div>
           </div>

@@ -10,18 +10,25 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           
           {/* Sisi Kiri: Teks */}
-          <div className="text-center lg:text-left z-20 relative"> 
-            <h2 className="text-kuning-fandy font-bold tracking-[0.2em] uppercase text-sm mb-4">
-                Welcome to my Portfolio
-            </h2>
-            <h1 className="text-5xl lg:text-8xl font-extrabold text-hijau-fandy leading-tight">
-                Hallo, I'm <br />
-                <span className="text-kuning-fandy">Fandy.</span>
-            </h1>
-            <p className="mt-6 text-lg text-gray-600 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-                Engineer, Multimedia Developer & Data Science Specialist based in Indonesia. 
-                Transforming ideas into digital reality.
+          <div className="text-center lg:text-left z-20 relative">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-hijau-fandy">
+  Hi, I'm
+</h2>
+
+<h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-hijau-fandy leading-tight">
+  Fandy Bonaro Dahlan.
+</h1>
+
+<h3 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-bold text-kuning-fandy">
+  Developer & Data Analyst
+</h3>
+
+            <p className="mt-6 text-base sm:text-lg text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+              Specializing in UI/UX Design, Frontend Development,
+              Backend Development, Full Stack Development,
+              and Data Analysis.
             </p>
+          
 
             {/* Tombol Action */}
             <div className="mt-10 flex flex-col sm:flex-row justify-center lg:justify-start gap-4">

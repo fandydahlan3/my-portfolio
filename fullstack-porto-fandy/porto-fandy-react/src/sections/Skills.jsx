@@ -24,9 +24,9 @@ const Skills = () => {
     <section id="skills" className="py-24 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-hijau-fandy font-bold uppercase tracking-widest text-sm mb-4">Favorite Tools</h2>
+          <h2 className="text-hijau-fandy font-bold uppercase tracking-widest text-sm mb-4">Skills Tools</h2>
           <h1 className="text-4xl lg:text-5xl font-extrabold text-hijau-fandy">
-            My Creative <span className="text-kuning-fandy">Tech Stack.</span>
+            Technologies <span className="text-kuning-fandy">& Tools</span>
           </h1>
         </div>
 
