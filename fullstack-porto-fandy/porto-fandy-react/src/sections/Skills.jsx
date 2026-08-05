@@ -17,6 +17,7 @@ const staticSkills = [
   { id: 9, name: "Bootstrap", image_url: "/logo/bootstrap.png" },
   { id: 10, name: "Photoshop", image_url: "/logo/ps.png" },
   { id: 11, name: "Premiere Pro", image_url: "/logo/pr.png" },
+  { id: 11, name: "Power BI", image_url: "/logo/power-bi-icon.png" },
 ];
 
 const Skills = () => {
