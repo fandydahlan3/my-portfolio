@@ -16,7 +16,7 @@ const staticProjects = [
     id: 2,
     title: "KOPRASI ABATASA",
     category: "Full Stack",
-    description: "Aplikasi Koprasi ABATASA untuk transaksi dan detail transaksi USER.",
+    description: "A cooperative management application for ABATASA that enables users to perform transactions and view transaction details.",
     image: "/images/ABATAS.png", 
     project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/ci-kop-risalah",
     tech_stack: "PHP, bootstrap, CodeIgniter 4, HTML, CSS"
@@ -25,7 +25,7 @@ const staticProjects = [
     id: 3,
     title: "Penerapan Metode K-means Dan Metode Simple Additive Weighting (SAW)",
     category: "Data Science",
-    description: "Penerapan Metode K-means Dan Metode Simple Additive Weighting (SAW) Untuk Rekomendasi Atlit Panjat Tebing Yang Akan Mengikuti Perlombaan",
+    description: "Implementation of K-Means and Simple Additive Weighting (SAW) Methods for Recommending Rock Climbing Athletes to Participate in Competitions.",
     image: "/images/SAW_lead.png", 
     project_url: "https://drive.google.com/file/d/1Z0_DGZEVaacOS8vgwnwXQefwwFNU5kpG/view?usp=sharing",
     tech_stack: "K-means, SAW, prototype, diagram activity, use case diagram, dll."
@@ -34,7 +34,7 @@ const staticProjects = [
     id: 4,
     title: "Aplikasi SPK Atlet Climbing",
     category: "Full Stack",
-    description: "Aplikasi Penunjang keputusan Atlet Climbing untuk menentukan yang layak mengikuti perlombaan.",
+    description: "A decision support application designed to identify the most eligible rock climbing athletes for competition participation.",
     image: "/images/SPK.png", 
     project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/spk-k-means-saw",
     tech_stack: "React, Vite, Node.js, Express.js, Python, Tailwind CSS"
@@ -43,7 +43,7 @@ const staticProjects = [
     id: 5,
     title: "Aplikasi Portofolio Fandy",
     category: "Mobile & Multimedia",
-    description: "Media portofolio fandy berbasis Website.",
+    description: "A personal portfolio website showcasing Fandy's projects, skills, and professional experience.",
     image: "/images/porto_figma.png", 
     project_url: "https://www.figma.com/design/cq2ZMChE2nWHM87wXlEshm/PORTO-FANDY?node-id=0-1&t=ZqvxH2BpHPPhzAAJ-1",
     tech_stack: "Figma"
@@ -52,7 +52,7 @@ const staticProjects = [
     id: 6,
     title: "Aplikasi Tinggal Klik",
     category: "Frontend",
-    description: "Media portofolio fandy berbasis Website.",
+    description: "A responsive web-based portfolio application designed to showcase Fandy's profile, projects, skills, and professional experience.",
     image: "/images/Tiggal_klik.png", 
     project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/tinggalklik-landing-page",
     tech_stack: "Ract, vite"
