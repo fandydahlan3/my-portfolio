@@ -58,7 +58,7 @@ const staticProjects = [
     tech_stack: "Ract, vite"
   },
   {
-    id: 6,
+    id: 7,
     title: "App Mobile POS",
     category: "Mobile & Multimedia",
     description: "Point Of Sale.",
