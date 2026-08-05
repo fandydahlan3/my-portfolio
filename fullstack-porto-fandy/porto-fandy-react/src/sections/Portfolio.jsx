@@ -57,6 +57,15 @@ const staticProjects = [
     project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/tinggalklik-landing-page",
     tech_stack: "Ract, vite"
   },
+  {
+    id: 6,
+    title: "App Mobile POS",
+    category: "Mobile & Multimedia",
+    description: "Point Of Sale.",
+    image: "/images/Login.png", 
+    project_url: "https://www.figma.com/design/oxsZahfyPclkISy8ZFvzfs/kasir-mobile?node-id=0-1&t=h9kMfr5pFX9CqMXR-1",
+    tech_stack: "Figma"
+  },
   // Anda bisa menambah baris data proyek baru di sini sesuka hati...
 ];
 
