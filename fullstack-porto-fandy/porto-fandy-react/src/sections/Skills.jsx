@@ -58,7 +58,7 @@ const Skills = () => {
                   <img
                     src={skill.image_url}
                     alt={skill.name}
-                    className="w-16 h-16 object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
+                    className="w-16 h-16 object-contain transition-all duration-300"
                     onError={(e) => (e.target.src = "https://placeholders.dev")}
                   />
                 </div>
