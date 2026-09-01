@@ -54,7 +54,7 @@ const Skills = () => {
           {staticSkills.map((skill) => (
             <SwiperSlide key={skill.id}>
               <div className="flex flex-col items-center group cursor-grab active:cursor-grabbing">
-                <div className="w-32 h-32 rounded-full border-2 border-gray-100 flex items-center justify-center bg-[#F8F9FA] group-hover:border-kuning-fandy transition-all duration-300 shadow-sm group-hover:shadow-md overflow-hidden">
+                <div className="w-32 h-32 rounded-full border-2 border-kuning-fandy flex items-center justify-center bg-[#F8F9FA] transition-all duration-300 shadow-sm overflow-hidden">
                   <img
                     src={skill.image_url}
                     alt={skill.name}
@@ -62,7 +62,7 @@ const Skills = () => {
                     onError={(e) => (e.target.src = "https://placeholders.dev")}
                   />
                 </div>
-                <p className="mt-4 font-bold text-hijau-fandy group-hover:text-kuning-fandy transition-colors duration-300">
+                <p className="mt-4 font-bold text-hijau-fandy transition-colors">
                   {skill.name}
                 </p>
               </div>
