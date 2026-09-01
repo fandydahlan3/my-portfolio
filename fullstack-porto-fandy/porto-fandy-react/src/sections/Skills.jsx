@@ -19,12 +19,13 @@ const staticSkills = [
   { id: 9, name: "Github", image_url: "/logo/github-logo.png" },
   { id: 10, name: "Canva", image_url: "/logo/canva.png" },
   { id: 10, name: "Photoshop", image_url: "/logo/ps.png" },
-  { id: 11, name: "Premiere Pro", image_url: "/logo/pr.png" },
-  { id: 11, name: "After Affects", image_url: "/logo/adobe-after-effects-icon.png" },
-  { id: 11, name: "Power BI", image_url: "/logo/power-bi-icon.png" },
-  { id: 11, name: "Microsoft Word", image_url: "/logo/word.png" },
-  { id: 11, name: "Microsoft Excel", image_url: "/logo/Excel.png" },
-  { id: 11, name: "Microsoft Projek", image_url: "/logo/Projek.png" },
+  { id: 12, name: "Premiere Pro", image_url: "/logo/pr.png" },
+  { id: 13, name: "After Affects", image_url: "/logo/adobe-after-effects-icon.png" },
+  { id: 14, name: "Power BI", image_url: "/logo/power-bi-icon.png" },
+  { id: 15, name: "Microsoft Word", image_url: "/logo/word.png" },
+  { id: 16, name: "Microsoft Excel", image_url: "/logo/Excel.png" },
+  { id: 17, name: "Microsoft Projek", image_url: "/logo/Projek.png" },
+  { id: 18, name: "Enterprise Architecture", image_url: "/logo/EA.png" },
 ];
 
 const Skills = () => {

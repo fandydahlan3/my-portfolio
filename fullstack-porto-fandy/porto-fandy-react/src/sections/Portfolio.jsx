@@ -42,7 +42,7 @@ const staticProjects = [
   {
     id: 5,
     title: "Aplikasi Portofolio Fandy",
-    category: "Mobile & Multimedia",
+    category: "UI/UX",
     description: "A personal portfolio website showcasing Fandy's projects, skills, and professional experience.",
     image: "/images/porto_figma.png", 
     project_url: "https://www.figma.com/design/cq2ZMChE2nWHM87wXlEshm/PORTO-FANDY?node-id=0-1&t=ZqvxH2BpHPPhzAAJ-1",
@@ -60,11 +60,20 @@ const staticProjects = [
   {
     id: 7,
     title: "App Mobile POS",
-    category: "Mobile & Multimedia",
+    category: "UI/UX",
     description: "Point Of Sale.",
     image: "/images/Login.png", 
     project_url: "https://www.figma.com/design/oxsZahfyPclkISy8ZFvzfs/kasir-mobile?node-id=0-1&t=h9kMfr5pFX9CqMXR-1",
     tech_stack: "Figma"
+  },
+  {
+    id: 8,
+    title: "BA Aplikasi SPK Atlet Climbing",
+    category: "Business Analyst",
+    description: "Business Analyst",
+    image: "/images/Proses Bisnis Baru.jpg", 
+    project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/spk-k-means-saw",
+    tech_stack: "Enterprise Architecture"
   },
   // Anda bisa menambah baris data proyek baru di sini sesuka hati...
 ];
@@ -82,7 +91,7 @@ const Portfolio = () => {
   });
 
   const displayedProjects = filteredProjects.slice(0, visibleCount);
-  const categories = ["All", "Full Stack","Backend", "Frontend", "Data Science", "Mobile & Multimedia"];
+  const categories = ["All","Business Analyst","Full Stack","Backend","Frontend","UI/UX","Data Science","Mobile","Multimedia"];
 
   return (
     <section id="portfolio" className="py-20 bg-[#F8F9FA]">
