@@ -11,13 +11,26 @@ import Admin from './sections/Admin';
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const [dots, setDots] = useState('');
 
   useEffect(() => {
+    // Timer untuk loading screen
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1200);
+    }, 2000);
 
-    return () => clearTimeout(timer);
+    // Animasi titik-titik
+    const dotsTimer = setInterval(() => {
+      setDots((prev) => {
+        if (prev === '...') return '';
+        return prev + '.';
+      });
+    }, 300);
+
+    return () => {
+      clearTimeout(timer);
+      clearInterval(dotsTimer);
+    };
   }, []);
 
   // =========================
@@ -27,15 +40,18 @@ function App() {
     return (
       <div className="fixed inset-0 bg-[#F8F9FA] flex flex-col items-center justify-center z-50">
 
-        {/* Logo F. */}
-        <h1 className="text-5xl font-extrabold text-hijau-fandy animate-flip">
-          F<span className="text-kuning-fandy">.</span>
-        </h1>
+        {/* Logo */}
+        <img
+          src="/F.png"
+          alt="Fandy Logo"
+          className="w-20 h-20 object-contain animate-flip"
+        />
 
         {/* Loading Text */}
-        <p className="mt-4 text-xs tracking-[0.3em] text-gray-400 uppercase">
-          Loading Portfolio...
-        </p>
+        <div className="mt-4 flex items-center text-xs tracking-[0.3em] text-gray-400 uppercase">
+          <span>Loading Portfolio</span>
+          <span>{dots}</span>
+        </div>
 
         {/* Loading Bar */}
         <div className="mt-5 w-40 h-1 bg-gray-200 rounded-full overflow-hidden">

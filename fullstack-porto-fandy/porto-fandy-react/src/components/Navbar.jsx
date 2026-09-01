@@ -13,12 +13,21 @@ const menuItems = [
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="flex justify-between items-center h-20">
           
-          {/* Logo */}
-          <div className="flex-shrink-0">
-            <h1 className="text-2xl font-extrabold tracking-tight text-white">
-              FANDY  <span className="text-kuning-fandy">BONARO</span> DAHLAN
-            </h1>
-          </div>
+         {/* Logo */}
+        <a
+          href="#home"
+          className="flex items-center gap-3 flex-shrink-0"
+        >
+          <img
+            src="/F.png"
+            alt="Fandy Logo"
+            className="w-15 h-15 rounded-xl object-contain"
+          />
+
+          <h1 className="text-2xl font-extrabold tracking-tight text-white">
+            Fandy
+          </h1>
+        </a>
 
           {/* Navigation - Desktop */}
           <div className="hidden md:block">
