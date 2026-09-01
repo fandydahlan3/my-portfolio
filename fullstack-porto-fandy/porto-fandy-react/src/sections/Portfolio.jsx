@@ -195,7 +195,7 @@ const Portfolio = () => {
 
           {/* Jika kategori kosong */}
           {filteredProjects.length === 0 && (
-            <p className="text-center text-gray-400 mt-10">Belum ada proyek di kategori ini.</p>
+            <p className="text-center text-gray-400 mt-10">There are no projects in this category yet.</p>
           )}
         </>
       </div>
