@@ -1,60 +1,231 @@
-# CodeIgniter 4 Framework
+# 🏦 Koperasi ABATASA
 
-## What is CodeIgniter?
+Aplikasi **Manajemen Koperasi berbasis web** yang dikembangkan untuk membantu proses pengelolaan data anggota, iuran, angsuran, pembayaran, pendapatan, dan usaha koperasi secara lebih terstruktur.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## 📌 About The Project
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+**Koperasi ABATASA** merupakan aplikasi berbasis web yang dirancang untuk mendukung pengelolaan administrasi koperasi.
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+Aplikasi ini membantu pengelola dalam melakukan pencatatan dan pemantauan transaksi koperasi melalui dashboard dan beberapa modul pengelolaan data.
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+## ✨ Features
 
-## Important Change with index.php
+* 👥 **Data Anggota**
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+  * Menambah data anggota
+  * Mengubah data anggota
+  * Menghapus data anggota
+  * Melihat detail anggota
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+* 💰 **Data Iuran**
 
-**Please** read the user guide for a better explanation of how CI4 works!
+  * Pencatatan iuran anggota
+  * Pengelolaan data pembayaran iuran
+  * Monitoring pembayaran
 
-## Repository Management
+* 📋 **Data Angsuran**
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+  * Pencatatan angsuran anggota
+  * Pembayaran angsuran
+  * Perhitungan jumlah terbayar
+  * Perhitungan sisa angsuran
+  * Status pembayaran
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+* 💵 **Pendapatan**
 
-## Contributing
+  * Pencatatan pendapatan koperasi
+  * Monitoring transaksi pendapatan
 
-We welcome contributions from the community.
+* 🏪 **Data Usaha**
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+  * Pengelolaan data usaha koperasi
+  * Pencatatan aktivitas usaha
 
-## Server Requirements
+* 📊 **Dashboard**
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+  * Ringkasan data koperasi
+  * Total anggota
+  * Total iuran
+  * Total angsuran
+  * Total pendapatan
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+## 🛠️ Tech Stack
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
+### Frontend
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+* HTML
+* CSS
+* JavaScript
+* Bootstrap 5
+* Sneat Admin Template
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+### Backend
+
+* PHP
+* CodeIgniter 4
+
+### Database
+
+* MySQL
+
+### Tools
+
+* Visual Studio Code
+* XAMPP
+* Git & GitHub
+
+## 🗂️ Project Structure
+
+```text
+ci-kop-risalah/
+├── app/
+│   ├── Controllers/
+│   ├── Models/
+│   └── Views/
+│
+├── public/
+│   ├── assets/
+│   └── ...
+│
+├── writable/
+├── system/
+├── .env
+└── README.md
+```
+
+## 🗄️ Database
+
+Aplikasi menggunakan **MySQL** sebagai database.
+
+Database utama:
+
+```text
+koperasi
+```
+
+Beberapa tabel yang digunakan:
+
+```text
+anggota
+data_iuran
+data_angsuran
+data_pendapatan
+data_usaha
+pembayaran_angsuran
+```
+
+## 🚀 Installation
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/fandydahlan3/my-portfolio.git
+```
+
+### 2. Masuk ke Folder Project
+
+```bash
+cd my-portfolio/ci-kop-risalah
+```
+
+### 3. Install Dependency
+
+```bash
+composer install
+```
+
+### 4. Konfigurasi Environment
+
+Copy file:
+
+```text
+env
+```
+
+menjadi:
+
+```text
+.env
+```
+
+Kemudian sesuaikan konfigurasi database:
+
+```env
+database.default.hostname = 127.0.0.1
+database.default.database = koperasi
+database.default.username = root
+database.default.password =
+database.default.DBDriver = MySQLi
+```
+
+### 5. Import Database
+
+Buat database:
+
+```text
+koperasi
+```
+
+Kemudian import file database melalui **phpMyAdmin**.
+
+### 6. Jalankan Aplikasi
+
+```bash
+php spark serve
+```
+
+Kemudian buka:
+
+```text
+http://localhost:8080
+```
+
+## 📸 Screenshots
+
+### Dashboard
+
+Tambahkan screenshot dashboard di sini:
+
+```markdown
+![Dashboard](public/images/dashboard.png)
+```
+
+### Data Anggota
+
+```markdown
+![Data Anggota](public/images/data-anggota.png)
+```
+
+### Data Angsuran
+
+```markdown
+![Data Angsuran](public/images/data-angsuran.png)
+```
+
+## 🎯 Project Purpose
+
+Project ini dibuat sebagai implementasi pengembangan aplikasi **web-based cooperative management system** dengan menggunakan **CodeIgniter 4 dan MySQL**.
+
+Project juga menjadi bagian dari portfolio untuk menunjukkan kemampuan dalam:
+
+* Web Development
+* Backend Development
+* Database Management
+* CRUD Application
+* System Analysis
+* UI Implementation
+* Business Process Implementation
+
+## 👨‍💻 Developer
+
+**Fandy Bonaro Dahlan**
+
+Information Systems Graduate
+
+Interested in:
+
+`Business Analyst` · `Web Development` · `Frontend` · `Backend` · `UI/UX` · `IT Support`
+
+---
+
+⭐ If you find this project useful, feel free to give it a star!
