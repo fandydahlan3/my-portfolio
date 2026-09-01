@@ -20,7 +20,7 @@ const Hero = () => {
             </h1>
 
             <h3 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-bold text-hijau-fandy">
-              <span className="text-kuning-fandy">Business Analyst</span> & Software Developer
+              <span className="text-kuning-fandy">Business Analyst &</span> Software Developer
             </h3>
 
             <p className="mt-6 text-base sm:text-lg text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
