@@ -36,7 +36,7 @@ const menuItems = [
                 href="mailto:fandydahlan3@://gmail.com..." 
                 className="bg-kuning-fandy hover:bg-yellow-400 text-hijau-fandy px-6 py-2.5 rounded-lg text-sm font-bold shadow-md transition-all active:scale-95 ml-4 inline-block"
               >
-                Hire Me
+                Let's Talk →
               </a>
             </div>
           </div>

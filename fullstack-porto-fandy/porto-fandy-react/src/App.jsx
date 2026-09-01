@@ -20,34 +20,39 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
-  // Loading Screen
+  // =========================
+  // LOADING SCREEN
+  // =========================
   if (loading) {
     return (
       <div className="fixed inset-0 bg-[#F8F9FA] flex flex-col items-center justify-center z-50">
-        
-        {/* Logo */}
-        <h1 className="text-5xl font-extrabold text-hijau-fandy">
+
+        {/* Logo F. */}
+        <h1 className="text-5xl font-extrabold text-hijau-fandy animate-flip">
           F<span className="text-kuning-fandy">.</span>
         </h1>
 
-        {/* Text */}
-        <p className="mt-3 text-xs tracking-[0.3em] text-gray-400 uppercase">
+        {/* Loading Text */}
+        <p className="mt-4 text-xs tracking-[0.3em] text-gray-400 uppercase">
           Loading Portfolio...
         </p>
 
         {/* Loading Bar */}
-        <div className="mt-5 w-32 h-1 bg-gray-200 rounded-full overflow-hidden">
-          <div className="w-1/2 h-full bg-hijau-fandy rounded-full animate-pulse"></div>
+        <div className="mt-5 w-40 h-1 bg-gray-200 rounded-full overflow-hidden">
+          <div className="h-full bg-hijau-fandy rounded-full animate-progress"></div>
         </div>
 
       </div>
     );
   }
 
+  // =========================
+  // MAIN WEBSITE
+  // =========================
   return (
     <Router>
       <div className="min-h-screen bg-gray-950 text-white selection:bg-kuning-fandy selection:text-hijau-fandy">
-        
+
         <Routes>
 
           {/* =========================
