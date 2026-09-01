@@ -16,7 +16,7 @@ const Hero = () => {
             </h2>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-hijau-fandy leading-tight">
-              Fandy Bonaro Dahlan.
+              Fandy <span className="text-kuning-fandy">Bonaro</span> Dahlan.
             </h1>
 
             <h3 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-bold text-kuning-fandy">
