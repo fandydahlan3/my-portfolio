@@ -140,10 +140,10 @@ const Portfolio = () => {
           : "bg-white text-gray-500 border-gray-200 hover:border-kuning-fandy hover:text-kuning-fandy hover:scale-105"
       }`}
     >
-      {cat}
-    </button>
-  ))}
-</div>
+          {cat}
+        </button>
+      ))}
+    </div>
 
         {/* 3. DIUBAH: Langsung menampilkan data proyek lokal */}
         <>
@@ -201,19 +201,34 @@ const Portfolio = () => {
 
           {/* --- TOMBOL SHOW MORE --- */}
           {filteredProjects.length > visibleCount && (
-            <div className="text-center mt-12">
-              <button 
+            <div className="flex justify-center mt-14">
+              <button
                 onClick={() => setVisibleCount(visibleCount + 4)}
-                className="bg-white text-hijau-fandy border-2 border-hijau-fandy px-8 py-3 rounded-xl font-bold hover:bg-hijau-fandy hover:text-white transition-all duration-300 shadow-md"
+                className="group inline-flex items-center gap-2 bg-hijau-fandy text-white px-7 py-3 rounded-full text-sm font-bold shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
               >
-                Load More Projects
+                Load More
+                <span className="text-lg group-hover:translate-y-1 transition-transform duration-300">
+                  ↓
+                </span>
               </button>
             </div>
           )}
 
           {/* Jika kategori kosong */}
           {filteredProjects.length === 0 && (
-            <p className="text-center text-gray-400 mt-10">There are no projects in this category yet.</p>
+            <div className="flex flex-col items-center justify-center py-16 text-center">
+              <div className="w-16 h-16 flex items-center justify-center rounded-full bg-gray-100 mb-4">
+                <span className="text-2xl">📁</span>
+              </div>
+
+              <h3 className="text-lg font-bold text-hijau-fandy mb-1">
+                No Projects Found
+              </h3>
+
+              <p className="text-sm text-gray-400 max-w-sm">
+                There are currently no projects available in this category.
+              </p>
+            </div>
           )}
         </>
       </div>
