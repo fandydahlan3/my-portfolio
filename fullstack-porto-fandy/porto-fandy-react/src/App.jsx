@@ -49,7 +49,7 @@ function App() {
 
         {/* Loading Text */}
         <div className="mt-4 flex items-center text-xs tracking-[0.3em] text-gray-400 uppercase">
-          <span>Loading Portfolio</span>
+          <span>Loading Portofolio</span>
           <span>{dots}</span>
         </div>
 
