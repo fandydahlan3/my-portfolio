@@ -11,7 +11,7 @@ const Hero = () => {
           
           {/* Sisi Kiri: Teks */}
           <div className="text-center lg:text-left z-20 relative">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-hijau-fandy">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-kuning-fandy">
               Hi, I'm
             </h2>
 
@@ -19,12 +19,12 @@ const Hero = () => {
               Fandy <span className="text-kuning-fandy">Bonaro</span> Dahlan.
             </h1>
 
-            <h3 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-bold text-kuning-fandy">
-              Business Analyst & Software Developer
+            <h3 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-bold text-hijau-fandy">
+              <span className="text-kuning-fandy">Business Analyst</span> & Software Developer
             </h3>
 
             <p className="mt-6 text-base sm:text-lg text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              Bridging <span className="text-kuning-fandy font-medium">business needs and technical solutions</span> through Business Analysis, System Analysis, Enterprise Architecture, UI/UX Design, and Software Development.
+              Bridging <span className="text-hijau-fandy font-medium">business needs and technical solutions</span> through Business Analysis, System Analysis, Enterprise Architecture, UI/UX Design, and Software Development.
             </p>
           
 

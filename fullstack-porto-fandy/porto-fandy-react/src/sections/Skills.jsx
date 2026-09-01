@@ -62,7 +62,7 @@ const Skills = () => {
                     onError={(e) => (e.target.src = "https://placeholders.dev")}
                   />
                 </div>
-                <p className="mt-4 font-bold text-gray-400 group-hover:text-hijau-fandy transition-colors">
+                <p className="mt-4 font-bold text-hijau-fandy group-hover:text-kuning-fandy transition-colors duration-300">
                   {skill.name}
                 </p>
               </div>
