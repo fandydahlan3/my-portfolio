@@ -72,7 +72,7 @@ const staticProjects = [
     category: "Business Analyst",
     description: "Business Analyst",
     image: "/images/Proses Bisnis Baru.jpg", 
-    project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/spk-k-means-saw",
+    project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/spk-k-means-saw/Business%20Analyst",
     tech_stack: "Enterprise Architecture"
   },
   {
