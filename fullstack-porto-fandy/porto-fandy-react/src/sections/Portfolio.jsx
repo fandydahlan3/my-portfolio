@@ -178,7 +178,14 @@ const Portfolio = () => {
                     {project.category}
                   </span>
                   <h3 className="text-lg font-bold text-hijau-fandy mt-1 mb-2 line-clamp-1">
-                    {project.title}
+                    <a
+                      href={project.project_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-kuning-fandy transition-colors duration-200"
+                    >
+                      {project.title}
+                    </a>
                   </h3>
                   <p className="text-gray-500 text-[11px] leading-relaxed mb-4 line-clamp-2">
                     {project.description}
