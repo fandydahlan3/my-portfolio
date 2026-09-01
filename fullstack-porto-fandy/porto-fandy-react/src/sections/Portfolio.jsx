@@ -75,6 +75,24 @@ const staticProjects = [
     project_url: "https://github.com/fandydahlan3/my-portfolio/tree/main/spk-k-means-saw",
     tech_stack: "Enterprise Architecture"
   },
+  {
+    id: 9,
+    title: "Benner Open Recruitment",
+    category: "Multimedia",
+    description: "Open Recruitment Binaniaga Mahasiswa Pecinta Alam",
+    image: "/images/OP.png", 
+    project_url: "https://drive.google.com/file/d/1CfRx8sstwrsUXRHwEMm-PquUaosnVZDZ/view?usp=sharing",
+    tech_stack: "Photoshop"
+  },
+  {
+    id: 10,
+    title: "Baliho DESA",
+    category: "Multimedia",
+    description: "Desa Bersih Narkoba",
+    image: "/images/BNN 3x2.png", 
+    project_url: "https://drive.google.com/file/d/1rIxOyqUlPnXaHS9QaPhlDDEptS6maI_v/view?usp=sharing",
+    tech_stack: "Photoshop"
+  },
   // Anda bisa menambah baris data proyek baru di sini sesuka hati...
 ];
 
