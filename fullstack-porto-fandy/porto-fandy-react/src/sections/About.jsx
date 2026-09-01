@@ -26,13 +26,13 @@ const About = () => {
 
             <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
               <p>
-                I'm a <span className="text-white font-medium">Software Developer and Data Analyst</span> with a passion for building modern, scalable, and user-centered digital solutions.
+                I'm a <span className="text-white font-medium">Information Systems graduate</span> with a strong interest in understanding business needs, analyzing processes, and translating those needs into effective digital solutions.
               </p>
               <p>
-                My expertise spans <span className="text-white font-medium">UI/UX Design, Frontend Development, Backend Development, Full Stack Development, and Data Analysis</span>. I enjoy transforming ideas into reliable web and mobile applications while designing efficient systems and extracting valuable insights from data.
+                I have skills in <span className="text-white font-medium">Business Analysis, System Analysis, Enterprise Architecture, UI/UX Design, Frontend Development, Backend Development, Full Stack Development, Data Analysis, and Multimedia.</span> I enjoy bridging the gap between <span className="text-white font-medium">business needs and technical solutions,</span> from analyzing problems and designing more efficient processes to translating ideas into user-centered systems.
               </p>
               <p>
-                I am committed to continuous learning and always strive to write <span className="text-kuning-fandy font-medium">clean, maintainable, and high-quality code</span> that delivers real value.
+                I am passionate about continuous learning and committed to delivering <span className="text-kuning-fandy font-medium">structured, practical, and user-focused solutions</span> that provide real value to users and organizations.
               </p>
             </div>
           </div>
